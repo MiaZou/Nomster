@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -25,4 +26,12 @@ body {
 .navbar {
   background: image_url('vintage-concrete.png');
   box-shadow: 2px 2px 1px grey;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #35274A;
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: -3.5px;
 }
