@@ -19,7 +19,7 @@ class PhotosController < ApplicationController
 
   def index
     @place = Place.find(params[:place_id])
-    @photo = Photo.picture.find(params[:id])
+    @photo = Photo.picture.find(params[:place_id])
 
     render :json => @photo
   end
