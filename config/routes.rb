@@ -9,6 +9,11 @@ Rails.application.routes.draw do
         patch :destroy
       end
     end
-    resources :photos, only: :create
+    resources :photos do
+      :create
+      collection do
+        patch :destroy
+      end
+    end
   end
 end
