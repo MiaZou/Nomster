@@ -22,6 +22,10 @@
       </div>
     <% end %>
 
+    <% if place.photos.present? %>
+      <%= image_tag @photo_url.to_s.last %>
+    <% end %>
+
   </div>
 <% end %>
 

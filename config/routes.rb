@@ -13,6 +13,7 @@ Rails.application.routes.draw do
       :create
       collection do
         patch :destroy
+        get :show
       end
     end
   end

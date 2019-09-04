@@ -17,6 +17,12 @@ class PhotosController < ApplicationController
     redirect_to place_path
   end
 
+  def index
+    @place = Place.find(params[:place_id])
+    @photo = Photo.picture.find(params[:id])
+
+    render :json => @photo
+  end
 
   private
 
