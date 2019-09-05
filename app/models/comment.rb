@@ -1,6 +1,7 @@
 class Comment < ApplicationRecord
   belongs_to :user
   belongs_to :place
+  after_create :send_comment_email
 
 
   RATINGS = {
@@ -14,5 +15,8 @@ class Comment < ApplicationRecord
   def humanized_rating
     RATINGS.invert[self.rating]
   end
-end
 
+  def send_comment_email
+    NotificationMailer.comment_added(self).deliver_now
+  end
+end
