@@ -29,7 +29,7 @@ body {
   box-shadow: 2px 2px 1px grey;
 }
 
-.navbar-collapse {
+.navbar-inverse .navbar-nav .nav-link {
   color: #35274A;
 }
 
@@ -101,4 +101,9 @@ blockquote p {
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.user_img {
+  height: 200px;
+  width: 180px;
 }
