@@ -2,7 +2,7 @@
 
 Nomster
 
-<img src="image/nomster.png" >
+<img src="app/assets/images/nomster.png" >
 
 Heroku: https://nomster-mia-zou.herokuapp.com
 
