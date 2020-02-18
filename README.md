@@ -2,6 +2,8 @@
 
 Nomster
 
+Heroku: https://nomster-mia-zou.herokuapp.com
+
 A yelp clone that integrates with the PostgreSQL database, Ruby on Rails, HTML5, CSS, BootStrap, and the Google Maps API. The App includes features like updating places (focuses in particular restaurants), loading maps, user commenting each place, star rating the place, uploading the image to each place (Amazon S3), and user authentication. 
 
 Getting Started
