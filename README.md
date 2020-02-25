@@ -4,6 +4,8 @@ Nomster is a yelp clone that integrates with the PostgreSQL database, Ruby on Ra
 
 <img src="app/assets/images/nomster.jpg">
 
+Heroku Link: https://nomster-mia-zou.herokuapp.com/
+
 ### Prerequisites
 
 What things you need to install the software:
